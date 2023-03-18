@@ -1,5 +1,8 @@
 package testNGBasics;
 
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
 public class TC01 {
@@ -30,14 +33,34 @@ public class TC01 {
 		 */
 	//}
 	
+	@AfterTest
+	public void after()
+	{
+		System.out.println("I will execute last");
+	}
+	
+	@AfterSuite
+	public void AfSuite()
+	{
+		System.out.println("I am always run last");
+	}
+	
+	@Test(groups= {"Smoke"})
+	public void Groups3()
+	{
+		System.out.println("I am in group3");
+	}
+	
 	@Test
 	public void demo()
 	{
 		System.out.println("Hello");
 	}
 	
-	/**TestNgxml file we need to run test cases in TestNg
-	 * 
-	 */
+	@Test
+	public void demoBye()
+	{
+		System.out.println("Bye");
+	}
 	
 }
