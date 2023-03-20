@@ -12,9 +12,6 @@
 			<class name="testNGBasics.TC02" />
 			<class name="testNGBasics.TC03" />
 			<class name="testNGBasics.TC04" />
-
-
 		</classes>
 	</test>
-
 </suite> 

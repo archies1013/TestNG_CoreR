@@ -1,41 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="10" total="14" passed="4" failed="0" skipped="0">
+<testng-results ignored="6" total="21" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-18T00:57:24 EDT" name="Loan Department" finished-at="2023-03-18T00:57:24 EDT" duration-ms="19">
+  <suite started-at="2023-03-19T22:40:10 EDT" name="Loan Department" finished-at="2023-03-19T22:40:10 EDT" duration-ms="36">
     <groups>
       <group name="Smoke">
-        <method signature="TC01.Groups3()[pri:0, instance:testNGBasics.TC01@3cc2931c]" name="Groups3" class="testNGBasics.TC01"/>
-        <method signature="TC02.demoGood()[pri:0, instance:testNGBasics.TC02@4b14c583]" name="demoGood" class="testNGBasics.TC02"/>
-        <method signature="TC03.Groups1()[pri:0, instance:testNGBasics.TC03@1534f01b]" name="Groups1" class="testNGBasics.TC03"/>
-        <method signature="TC04.Groups2()[pri:0, instance:testNGBasics.TC04@78e117e3]" name="Groups2" class="testNGBasics.TC04"/>
+        <method signature="TC01.Groups3()[pri:0, instance:testNGBasics.TC01@6ef888f6]" name="Groups3" class="testNGBasics.TC01"/>
+        <method signature="TC02.demoGood()[pri:0, instance:testNGBasics.TC02@1d119efb]" name="demoGood" class="testNGBasics.TC02"/>
+        <method signature="TC04.Groups2()[pri:0, instance:testNGBasics.TC04@2473d930]" name="Groups2" class="testNGBasics.TC04"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-03-18T00:57:24 EDT" name="Regression Testing" finished-at="2023-03-18T00:57:24 EDT" duration-ms="19">
+    <test started-at="2023-03-19T22:40:10 EDT" name="Car Loan" finished-at="2023-03-19T22:40:10 EDT" duration-ms="14">
       <class name="testNGBasics.TC01">
-        <test-method signature="Groups3()[pri:0, instance:testNGBasics.TC01@3cc2931c]" started-at="2023-03-18T00:57:24 EDT" name="Groups3" finished-at="2023-03-18T00:57:24 EDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="AfSuite()[pri:0, instance:testNGBasics.TC01@6ef888f6]" started-at="2023-03-19T22:40:10 EDT" name="AfSuite" finished-at="2023-03-19T22:40:10 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfSuite -->
+      </class> <!-- testNGBasics.TC01 -->
+      <class name="testNGBasics.TC03">
+        <test-method is-config="true" signature="BfSuite()[pri:0, instance:testNGBasics.TC03@647e447]" started-at="2023-03-19T22:40:10 EDT" name="BfSuite" finished-at="2023-03-19T22:40:10 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfSuite -->
+        <test-method is-config="true" signature="bfClass()[pri:0, instance:testNGBasics.TC03@647e447]" started-at="2023-03-19T22:40:10 EDT" name="bfClass" finished-at="2023-03-19T22:40:10 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfClass -->
+        <test-method is-config="true" signature="bfmethod()[pri:0, instance:testNGBasics.TC03@647e447]" started-at="2023-03-19T22:40:10 EDT" name="bfmethod" finished-at="2023-03-19T22:40:10 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfmethod -->
+        <test-method signature="loginAPIcarloan()[pri:0, instance:testNGBasics.TC03@647e447]" started-at="2023-03-19T22:40:10 EDT" name="loginAPIcarloan" finished-at="2023-03-19T22:40:10 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAPIcarloan -->
+        <test-method is-config="true" signature="afmethod()[pri:0, instance:testNGBasics.TC03@647e447]" started-at="2023-03-19T22:40:10 EDT" name="afmethod" finished-at="2023-03-19T22:40:10 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afmethod -->
+        <test-method is-config="true" signature="afClass()[pri:0, instance:testNGBasics.TC03@647e447]" started-at="2023-03-19T22:40:10 EDT" name="afClass" finished-at="2023-03-19T22:40:10 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afClass -->
+      </class> <!-- testNGBasics.TC03 -->
+    </test> <!-- Car Loan -->
+    <test started-at="2023-03-19T22:40:10 EDT" name="Personal Loan" finished-at="2023-03-19T22:40:10 EDT" duration-ms="36">
+      <class name="testNGBasics.TC01">
+        <test-method signature="French(java.lang.String,java.lang.String)[pri:0, instance:testNGBasics.TC01@6ef888f6]" started-at="2023-03-19T22:40:10 EDT" name="French" data-provider="getData" finished-at="2023-03-19T22:40:10 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstsetpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- French -->
+        <test-method signature="French(java.lang.String,java.lang.String)[pri:0, instance:testNGBasics.TC01@6ef888f6]" started-at="2023-03-19T22:40:10 EDT" name="French" data-provider="getData" finished-at="2023-03-19T22:40:10 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondsetpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- French -->
+        <test-method signature="French(java.lang.String,java.lang.String)[pri:0, instance:testNGBasics.TC01@6ef888f6]" started-at="2023-03-19T22:40:10 EDT" name="French" data-provider="getData" finished-at="2023-03-19T22:40:10 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdsetpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- French -->
+        <test-method signature="Groups3()[pri:0, instance:testNGBasics.TC01@6ef888f6]" started-at="2023-03-19T22:40:10 EDT" name="Groups3" finished-at="2023-03-19T22:40:10 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Groups3 -->
+        <test-method signature="demo()[pri:0, instance:testNGBasics.TC01@6ef888f6]" started-at="2023-03-19T22:40:10 EDT" name="demo" finished-at="2023-03-19T22:40:10 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="demoBye()[pri:0, instance:testNGBasics.TC01@6ef888f6]" started-at="2023-03-19T22:40:10 EDT" name="demoBye" finished-at="2023-03-19T22:40:10 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBye -->
+        <test-method is-config="true" signature="after()[pri:0, instance:testNGBasics.TC01@6ef888f6]" started-at="2023-03-19T22:40:10 EDT" name="after" finished-at="2023-03-19T22:40:10 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
       </class> <!-- testNGBasics.TC01 -->
       <class name="testNGBasics.TC02">
-        <test-method signature="demoGood()[pri:0, instance:testNGBasics.TC02@4b14c583]" started-at="2023-03-18T00:57:24 EDT" name="demoGood" finished-at="2023-03-18T00:57:24 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNGBasics.TC02@1d119efb]" started-at="2023-03-19T22:40:10 EDT" name="beforeTest" finished-at="2023-03-19T22:40:10 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="demoGood()[pri:0, instance:testNGBasics.TC02@1d119efb]" started-at="2023-03-19T22:40:10 EDT" name="demoGood" finished-at="2023-03-19T22:40:10 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demoGood -->
       </class> <!-- testNGBasics.TC02 -->
-      <class name="testNGBasics.TC03">
-        <test-method signature="Groups1()[pri:0, instance:testNGBasics.TC03@1534f01b]" started-at="2023-03-18T00:57:24 EDT" name="Groups1" finished-at="2023-03-18T00:57:24 EDT" duration-ms="0" status="PASS">
+      <class name="testNGBasics.TC05">
+        <test-method signature="Jira()[pri:0, instance:testNGBasics.TC05@769f71a9]" started-at="2023-03-19T22:40:10 EDT" name="Jira" finished-at="2023-03-19T22:40:10 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Groups1 -->
-      </class> <!-- testNGBasics.TC03 -->
+        </test-method> <!-- Jira -->
+        <test-method signature="Selenium(java.lang.String)[pri:0, instance:testNGBasics.TC05@769f71a9]" started-at="2023-03-19T22:40:10 EDT" name="Selenium" finished-at="2023-03-19T22:40:10 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selenium -->
+        <test-method signature="API()[pri:0, instance:testNGBasics.TC05@769f71a9]" started-at="2023-03-19T22:40:10 EDT" name="API" finished-at="2023-03-19T22:40:10 EDT" depends-on-methods="testNGBasics.TC05.Selenium" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API -->
+      </class> <!-- testNGBasics.TC05 -->
       <class name="testNGBasics.TC04">
-        <test-method signature="Groups2()[pri:0, instance:testNGBasics.TC04@78e117e3]" started-at="2023-03-18T00:57:24 EDT" name="Groups2" finished-at="2023-03-18T00:57:24 EDT" duration-ms="0" status="PASS">
+        <test-method signature="Groups2()[pri:0, instance:testNGBasics.TC04@2473d930]" started-at="2023-03-19T22:40:10 EDT" name="Groups2" finished-at="2023-03-19T22:40:10 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Groups2 -->
+        <test-method signature="loginAPIhomeloan()[pri:0, instance:testNGBasics.TC04@2473d930]" started-at="2023-03-19T22:40:10 EDT" name="loginAPIhomeloan" finished-at="2023-03-19T22:40:10 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAPIhomeloan -->
+        <test-method signature="mobileloginhomeloan()[pri:0, instance:testNGBasics.TC04@2473d930]" started-at="2023-03-19T22:40:10 EDT" name="mobileloginhomeloan" finished-at="2023-03-19T22:40:10 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileloginhomeloan -->
+        <test-method signature="webloginhomeloan()[pri:0, instance:testNGBasics.TC04@2473d930]" started-at="2023-03-19T22:40:10 EDT" name="webloginhomeloan" finished-at="2023-03-19T22:40:10 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginhomeloan -->
       </class> <!-- testNGBasics.TC04 -->
-    </test> <!-- Regression Testing -->
+    </test> <!-- Personal Loan -->
   </suite> <!-- Loan Department -->
 </testng-results>
